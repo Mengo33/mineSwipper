@@ -1,0 +1,87 @@
+.ng-cloak {
+    display: none;
+}
+
+.row {
+    clear: left;
+}
+
+.cell {
+    transition: background 0.4s;
+    border: 2px solid #555;
+    width: 70px;
+    height: 70px;
+    float: left;
+    /*padding: 15px;*/
+}
+
+.board {
+    background: #555;
+}
+
+#unknown {
+    background: url(../pictures/unknown.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#one {
+    background: url(../pictures/one.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#two {
+    background: url(../pictures/two.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#three {
+    background: url(../pictures/three.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#four {
+    background: url(../pictures/four.jpg);
+    background-size: contain;
+}
+
+#five {
+    background: url(../pictures/five.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#six {
+    background: url(../pictures/six.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#seven {
+    background: url(../pictures/seven.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#eight {
+    background: url(../pictures/eight.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#empty {
+    background: url(../pictures/empty.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#bombed {
+    background: url(../pictures/bombed.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#theBomb {
+    background: url(../pictures/theBomb.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+#flag {
+    background: url(../pictures/flag.jpg) no-repeat right bottom, left top;
+    background-size: contain;
+}
+
+

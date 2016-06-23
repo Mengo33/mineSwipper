@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mineswipper">
+<head>
+    <meta charset="UTF-8">
+    <title>mineSwipper</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mineSwipper.css">
+</head>
+<body>
+
+<div ng-if="false">
+    LOADING....
+</div>
+<div ng-controller="MineSwipperController">
+    <button ng-click="draw()">Play Again</button>
+</div>
+<div id="board" class="ng-cloak container" ng-controller="MineSwipperController" ng-init="draw()">
+
+</div>
+<script src="js/angular.js"></script>
+<script src="js/jquery-2.2.4.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mineSwipper.js"></script>
+</body>
+</html>
